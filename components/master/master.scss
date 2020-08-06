@@ -1,0 +1,126 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/templates/simple-sidebar)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+
+ #wrapper {
+    overflow-x: auto;
+    display: flex;
+    width: 100%;
+    height: 100%;
+ }
+
+#sidebar-wrapper .sidebar-heading {
+  align-items: center;
+  font-size: 1.2rem;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  height: 48px;
+  display:flex;
+  justify-content: center;
+}
+
+#sidebar-wrapper.toggled {
+  transition: all 0.25s ease;
+  display: widht;
+  max-width: 0;
+  min-width: 0;
+  overflow: hidden;
+  padding:0;
+}
+
+#sidebar-wrapper {
+  transition: all 0.25s ease;
+  min-width: 15rem;
+  max-width: 15rem;
+  padding-right: 0px;
+}
+
+#search-tooltip {
+  position: fixed !important;
+  right: 25px;
+  z-index: 999;
+  top: 35px;
+}
+
+#json-pretty pre {
+  margin-bottom: 0;
+}
+
+.list-group-item {
+  border:none;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  z-index: 999;
+  margin-top: -11px;
+  margin-bottom: -12px;
+  position: relative;
+}
+
+#drop-language {
+  margin-left: -0.75rem;
+}
+
+#drop-language::before {
+  display: none;
+}
+
+.caret {
+  display: none;
+  }
+
+  .clickable {
+    cursor: pointer;
+    border-radius: .2rem;
+    padding: .25rem .5rem;
+  }
+
+  .pointer {
+    cursor: pointer;
+  }
+
+  .clickable:hover {
+    background-color: #dae0e5;
+  
+  }
+.separator::before, .separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #dae0e5;
+}
+.separator::before {
+  margin-right: .25em;
+}
+.separator::after {
+  margin-left: .25em;
+}
+.separator span {
+  z-index: 999;
+}
+
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% {  transform: rotate(360deg); }
+}
+.spin {
+  animation: spin 2s linear infinite;
+
+}
+
+.overlay {
+  position:absolute;
+  top:0;
+  right:0;
+  height:100%;
+  width:100%;
+  background:#dbdbdbb8;
+}
+@media (min-width: 768px) {
+
+}

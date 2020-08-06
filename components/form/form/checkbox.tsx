@@ -3,7 +3,7 @@ import React, { useMemo, ReactElement, useCallback, Props, useContext } from 're
 import * as _ from 'lodash';
 import { Form, Col, FormControlProps, ColProps } from 'react-bootstrap';
 import { FormText } from './interfaces/input';
-import { TextContext } from '../text';
+import { TextContext } from '@bit/martonis.react.text';
 import { Validation, useValidation } from './hooks/useValidation';
 
 

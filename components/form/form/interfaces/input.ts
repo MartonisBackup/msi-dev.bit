@@ -1,4 +1,4 @@
-import { TextObject } from "../../text";
+import { TextObject } from "@bit/martonis.react.text";
 
 export interface IInput extends TextObject {
     label?: string,

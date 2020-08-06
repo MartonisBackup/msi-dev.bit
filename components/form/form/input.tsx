@@ -6,7 +6,7 @@ import * as _ from 'lodash';
 import { Form, Col, FormControlProps, ColProps, InputGroup } from 'react-bootstrap';
 import { FormText } from './interfaces/input';
 import { Validation, useValidation } from './hooks/useValidation';
-import { TextContext } from '../text';
+import { TextContext } from '@bit/martonis.react.text';
 import Eye from 'bootstrap-icons/icons/eye.svg';
 import EyeSlash from 'bootstrap-icons/icons/eye-slash.svg';
 

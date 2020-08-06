@@ -2,7 +2,7 @@ import _ from 'lodash';
 import { useMemo } from 'react';
 import * as langs from '../lang';
 import { ValidationRules } from 'react-hook-form';
-import { useLanguage } from '../../language';
+import { useLanguage } from '@bit/martonis.react.language';
 
 export type Validation = {
     required?: boolean;

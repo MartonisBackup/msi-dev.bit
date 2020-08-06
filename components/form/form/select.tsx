@@ -4,7 +4,7 @@ import { Form, Col, ColProps } from 'react-bootstrap';
 import _ from 'lodash';
 import { FormText } from './interfaces/input';
 import { Validation, useValidation } from './hooks/useValidation';
-import { TextContext } from '../text';
+import { TextContext } from '@bit/martonis.react.text';
 
 export interface SelectProp<T> extends ColProps {
     dataValue: string;

@@ -5,7 +5,7 @@ import { Form, Col, FormControlProps, ColProps, InputGroup } from 'react-bootstr
 import DatePicker from "react-datepicker";
 import { FormText } from './interfaces/input';
 import { Validation, useValidation } from './hooks/useValidation';
-import { TextContext } from '../text';
+import { TextContext } from '@bit/martonis.react.text';
 
 export interface DateProp extends ColProps {
   name: string;
