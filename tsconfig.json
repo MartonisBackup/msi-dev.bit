@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "composite": false,
+    "module": "CommonJS",
+    "declaration": false,
+    "removeComments": true,
+    "allowJs": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "types": [ "react" ],
+    "target": "es2019",
+    "sourceMap": true,
+    "incremental": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "jsx": "react"
+  },
+  "files": ["node_modules/react-custom-types/index.d.ts"],
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["**/node_modules"]
+}

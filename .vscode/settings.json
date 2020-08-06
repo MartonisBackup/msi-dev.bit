@@ -1,0 +1,19 @@
+{
+  "files.exclude": {
+      "**/*.js.map": true,
+      "**/*.d.ts": false,
+      "**/*.js": {
+          "when": "$(basename).ts"
+      }, 
+      "**/*?.js": {
+          "when": "$(basename).tsx"
+      },
+      
+      "**/node_modules": true,
+      "**/*.css.d.ts": true,
+      "**/package-lock.json": true,
+      "**/*.tsbuildinfo": true
+  },
+  "editor.tabSize": 4,
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
