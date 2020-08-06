@@ -1,5 +1,4 @@
 import React, { PropsWithChildren, useState, useEffect, ReactElement, useMemo, useCallback } from 'react';
-import './master.scss';
 import CarretLeft from 'bootstrap-icons/icons/caret-left.svg'
 import CarretRight from 'bootstrap-icons/icons/caret-right.svg'
 import Refresh from 'bootstrap-icons/icons/arrow-clockwise.svg'
