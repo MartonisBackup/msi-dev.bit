@@ -33,7 +33,7 @@ const InternalPagination = createUltimatePagination({
   },
 });
 
-const TablePagination = ({setPageInfo, totalCount, pageInfo}:  PropsWithoutRef<ITablePagination>) => {
+export const TablePagination = ({setPageInfo, totalCount, pageInfo}:  PropsWithoutRef<ITablePagination>) => {
     if(!totalCount || !pageInfo)
         return null;
 
@@ -50,5 +50,3 @@ const TablePagination = ({setPageInfo, totalCount, pageInfo}:  PropsWithoutRef<I
       );
 
 }
-
-export default TablePagination;

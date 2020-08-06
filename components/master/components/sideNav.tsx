@@ -6,6 +6,7 @@ import { Col } from 'react-bootstrap';
 import {Logged} from './logged';
 import { useLanguage } from '@bit/martonis.react.language';
 import { TextContext } from '@bit/martonis.react.text';
+import { UserContext } from '../masterpage';
 
 export interface Page {
     route: string
@@ -21,7 +22,7 @@ export interface SideNavProps {
     title: string;
     className?: string;
     routesPath: {[x:string]: string};
-    userContext: React.Context<{username: string}>
+    userContext: UserContext
 }
 
 export const SideNav = ({ menu, toggled, title, className = '', routesPath, userContext, ...props }: PropsWithChildren<SideNavProps>) => {

@@ -10,10 +10,12 @@ import { Collapse, Container, Navbar, Row, Col } from 'react-bootstrap';
 import _ from 'lodash';
 import { useApolloClient } from '@apollo/client';
 
+export type UserContext =  React.Context<{username: string} & any>;
+
 export interface MasterPageProps {
   title: string;
   menu: (Page | Category)[];
-  userContext: React.Context<{username: string}>;
+  userContext: UserContext;
   routesPath: {[x:string]: string};
 }
 

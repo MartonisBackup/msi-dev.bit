@@ -4,8 +4,9 @@ import CaretRight from 'bootstrap-icons/icons/caret-right.svg'
 import { Dropdown, DropdownButton } from 'react-bootstrap';
 import { useCookies } from 'react-cookie';
 import { LanguageSelect } from '@bit/martonis.react.language';
+import { UserContext } from '../masterpage';
 
-export const Logged = ({ userContext }: { userContext: React.Context<{username: string}> }) => {
+export const Logged = ({ userContext }: { userContext: UserContext }) => {
     const user = useContext(userContext);
     const [, , removeCookies] = useCookies()
 

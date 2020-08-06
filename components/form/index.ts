@@ -1,4 +1,4 @@
-export * from 'react-custom-types/main';export * from 'react-custom-types/main'; //force bit to import dependency
+export * from 'react-custom-types/main'; //force bit to import dependency
 export * from './checkbox';
 export * from './date';
 export * from './dateRange';

@@ -15,7 +15,7 @@ export interface DateRangeProp extends ColProps {
   showTimeSelect?: boolean;
 }
 
-const FormDateRange = ({ name, className = '', disabled, validation = {}, showTimeSelect, ...props }: DateRangeProp) => {
+export const FormDateRange = ({ name, className = '', disabled, validation = {}, showTimeSelect, ...props }: DateRangeProp) => {
   const { register, errors, formState, control, setValue } = useFormContext()
   const text = useContext(TextContext)  as FormText<any>;
   const vals = useValidation(validation);
@@ -79,5 +79,3 @@ const FormDateRange = ({ name, className = '', disabled, validation = {}, showTi
     </Form.Group>
   )
 }
-
-export default FormDateRange;

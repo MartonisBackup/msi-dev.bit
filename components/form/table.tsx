@@ -1,7 +1,7 @@
 import React, { PropsWithoutRef, useMemo, Dispatch, SetStateAction } from "react";
 import _ from 'lodash';
 import { Table, Pagination, Container } from 'react-bootstrap'
-import TablePagination, { ITablePagination } from "./pagination";
+import {TablePagination, ITablePagination } from "./pagination";
 
 export type Metadata<T> = {
     name: string,
