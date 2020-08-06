@@ -1,4 +1,4 @@
-import 'form.scss';
+import './form.scss';
 
 export * from 'react-custom-types/main'; //force bit to import dependency
 export * from './checkbox';
